@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+svg.svg-inline--fa.fa-bars{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+a.nav-link{
+    color: #000000;
+    font-size: 15px;
+    margin-right: 15px;
+}
+a.nav-link.active{
+    background-color: #50c7f3;
+    color: #fff;
+    box-shadow: 5px 5px 2px #8a89898c;
+}
+a.nav-link:hover{
+    color: #fff;
+    background-color: #50c7f3;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;     
+}
+.header-text{
+    background-color: #dcdce2;
+    border-radius: 20px;
+    padding: 20px;
+}
+.header-text h4{
+    color: #2596be;
+    font-weight: 600;
+}
+.header-text p{
+    color: #000000;
+    font-weight: 400;
+}
+/* our services */
+.services-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.minitext{
+    border: 2px dashed #000000;
+    border-radius: 20px;
+    margin: 20px;
+}
+.minitext h3 span{
+    color: #2596be;
+    font-weight: 800;
+}
+.minitext h3{
+    color: #000000;
+    font-weight: 600;
+    padding: 10px;
+}
+.services{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.services h3{
+    color: #000000;
+    font-weight: 600;
+}
+.services p{
+    color: #000000;
+    font-weight: 400;
+}
+.service-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.service-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    cursor: pointer;
+}
+.service-img h6{
+    font-weight: 600;
+    color: #000000;
+}
+.service-img p{
+    text-align: center;
+    font-size: 15px;
+}
+.service-img:hover{
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px #000000;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* about us */
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.about-row h4{
+    font-weight: 400;
+    color: #000000;
+}
+.about-row h3{
+    font-weight: 600;
+    color: #000000;
+}
+/* products */
+.products-text h1{
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+}
+.line-plus-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line-plus-icon hr{
+    color: #000000;
+    border: 1px solid #000000;
+    margin: 5px 15px 5px 15px;
+}
+.carousal-components{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+.carousal-components img{
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.carousal-components a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+.carousal-components p{
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.cimage2 img{
+    background-color: violet;
+}
+.cimage3 img{
+    background-color: orange;
+}
+/* our services 2 */
+.ourservices-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ourservices2-text{
+    margin-top: 250px;
+    text-align: justify;
+}
+.iot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+}
+.iot h6{
+    font-weight: 600;
+    color: #000000;
+}
+.iot img{
+    border-radius: 50%;
+}
+.iot p{
+    text-align: justify;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.app h6{
+    font-weight: 600;
+    color: #000000;
+}
+.app img{
+    border-radius: 50%;
+}
+.app p{
+    text-align: justify;
+}
+.arvr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.arvr h6{
+    font-weight: 600;
+    color: #000000;
+}
+.arvr img{
+    border-radius: 50%;
+}
+.arvr p{
+    text-align: justify;
+}
+.iot-border{
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 360px;
+    height: 290px;
+    margin-top: -300px;
+    margin-left: -10px;
+}
+/* Contact */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.form h5{
+    font-weight: 600;
+    color: #000000;
+}
+.form input{
+    color: #000000;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-top: 10px;
+    padding: 5px;
+    outline: none;
+}
+.form button{
+    margin-top: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+}
+/* footer */
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0b1232;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-row h6{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+}
+.footer-row p{
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+}
+.footer-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-row button{
+    color: #0b1232;
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+}
+.copyrights hr{
+    color: #fff;
+    padding-top: 10px;
+}
+.copyrights p{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+/* small screen */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .navbar img{
+        width: 160px;
+        height: 50px;
+    }
+    .header-text p{
+        display: none;
+    }
+    .services-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services h3{
+        color: #000000;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .services p{
+        color: #000000;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .service-elements{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* About */
+    .about-row{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .about-row p{
+        text-align: justify;
+    }
+    .ourservices-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourservices2-text{
+        margin-top: 0px;
+        text-align: justify;
+    }
+    .iot-border{
+        display: none;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer{
+        width: 100%;
+        height: 700px;
+        background-color: #0b1232;
+    }
+}
+
+/* tablet devices */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .services p{
+        color: #000000;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .about-row p{
+        text-align: justify;
+    }
+    .about-row img{
+        width: 300px;
+    }
+    .iot-border{
+        display: none;
+    }
+    #footer{
+        width: 100%;
+        height: 400px;
+        background-color: #0b1232;
+    }
+}
